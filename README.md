@@ -75,7 +75,23 @@ uv run pytest
 
 ## Results
 
-Fill in after the first real run with `scripts/score.py`.
+First run on the five samples, `claude-opus-5-5` at `medium` effort (2 November 2026):
+
+| | |
+|---|---|
+| Fields correct (`scripts/score.py`) | **80 / 80** across 5 invoices |
+| Status | 4 `ok`, 1 `needs_review` |
+| Caught by validation | `05-math-error.pdf`: "line items add up to 1030.0, but subtotal is 1130.0", and no bank details |
+| Tokens | 21,947 in, 2,257 out for all five |
+| Cost | about $0.13 for the batch, under 3 cents per invoice |
+
+Details worth noting from the output:
+
+- German amounts like `1.234,50 €` and dates like `03.10.2026` came back as plain numbers and ISO dates, and the fractional quantity `2,5` came back as `2.5`.
+- On the text-only freelancer invoice, the due date was computed from "pay within 14 days" and the reverse-charge VAT note was kept in `notes`.
+- The $100 subtotal error was copied as printed, not silently fixed, which is what lets the validator flag it.
+
+The scorer checks 16 fields per invoice (all header fields, totals, payment identifiers and every line total). Descriptions and quantities were checked by hand.
 
 ## Extending it
 
