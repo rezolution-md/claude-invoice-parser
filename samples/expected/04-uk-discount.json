@@ -1,0 +1,41 @@
+{
+  "vendor_name": "Kestrel Ledger Software Ltd",
+  "vendor_tax_id": "GB000000001",
+  "customer_name": "Northfield Physio Partners",
+  "invoice_number": "KLS-INV-5530",
+  "issue_date": "2026-11-01",
+  "due_date": "2026-12-01",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Annual software licence, 15 seats",
+      "quantity": 15,
+      "unit_price": 240.0,
+      "line_total": 3600.0
+    },
+    {
+      "description": "Onboarding workshop (half day)",
+      "quantity": 1,
+      "unit_price": 650.0,
+      "line_total": 650.0
+    },
+    {
+      "description": "Loyalty discount 10% on licences",
+      "quantity": 1,
+      "unit_price": -360.0,
+      "line_total": -360.0
+    }
+  ],
+  "subtotal": 3890.0,
+  "tax_rate_percent": 20,
+  "tax_amount": 778.0,
+  "total": 4668.0,
+  "payment": {
+    "bank_name": "Demo Bank plc",
+    "iban": null,
+    "bic_swift": null,
+    "account_number": "00001234",
+    "routing_or_sort_code": "00-00-00"
+  },
+  "notes": null
+}

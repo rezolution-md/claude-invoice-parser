@@ -1,0 +1,41 @@
+{
+  "vendor_name": "Nordlicht IT-Service GmbH",
+  "vendor_tax_id": "DE000000001",
+  "customer_name": "Praxis am Stadtpark",
+  "invoice_number": "NL-2026-0931",
+  "issue_date": "2026-10-03",
+  "due_date": "2026-10-17",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Wartungsvertrag Server, Oktober",
+      "quantity": 1,
+      "unit_price": 450.0,
+      "line_total": 450.0
+    },
+    {
+      "description": "Ersatzlüfter 120 mm",
+      "quantity": 4,
+      "unit_price": 18.75,
+      "line_total": 75.0
+    },
+    {
+      "description": "Fernsupport (Std.)",
+      "quantity": 2.5,
+      "unit_price": 80.0,
+      "line_total": 200.0
+    }
+  ],
+  "subtotal": 725.0,
+  "tax_rate_percent": 19,
+  "tax_amount": 137.75,
+  "total": 862.75,
+  "payment": {
+    "bank_name": "Demo Sparkasse",
+    "iban": "DE00000000000000000000",
+    "bic_swift": "DEMODEXXX",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": null
+}

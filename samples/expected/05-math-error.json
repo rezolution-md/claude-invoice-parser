@@ -1,0 +1,41 @@
+{
+  "vendor_name": "Copperfield Accounts & Payroll",
+  "vendor_tax_id": null,
+  "customer_name": "Sunrise Dental Studio",
+  "invoice_number": "CAP-1042",
+  "issue_date": "2026-10-31",
+  "due_date": "2026-11-15",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Monthly bookkeeping, October",
+      "quantity": 1,
+      "unit_price": 600.0,
+      "line_total": 600.0
+    },
+    {
+      "description": "Payroll run (per employee)",
+      "quantity": 12,
+      "unit_price": 15.0,
+      "line_total": 180.0
+    },
+    {
+      "description": "Year-end prep deposit",
+      "quantity": 1,
+      "unit_price": 250.0,
+      "line_total": 250.0
+    }
+  ],
+  "subtotal": 1130.0,
+  "tax_rate_percent": null,
+  "tax_amount": 0.0,
+  "total": 1130.0,
+  "payment": {
+    "bank_name": null,
+    "iban": null,
+    "bic_swift": null,
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": null
+}

@@ -1,0 +1,41 @@
+{
+  "vendor_name": "Mara Velasquez Design",
+  "vendor_tax_id": "000000001",
+  "customer_name": "Quillstone Publishing Ltd",
+  "invoice_number": "2026/017",
+  "issue_date": "2026-09-21",
+  "due_date": "2026-10-05",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Book cover design, 'The Long Tide' (flat fee)",
+      "quantity": null,
+      "unit_price": null,
+      "line_total": 1200.0
+    },
+    {
+      "description": "Two extra revision rounds at EUR 150.00 each",
+      "quantity": 2,
+      "unit_price": 150.0,
+      "line_total": 300.0
+    },
+    {
+      "description": "Licensed stock image",
+      "quantity": null,
+      "unit_price": null,
+      "line_total": 45.0
+    }
+  ],
+  "subtotal": null,
+  "tax_rate_percent": null,
+  "tax_amount": 0.0,
+  "total": 1545.0,
+  "payment": {
+    "bank_name": null,
+    "iban": "PT50000000000000000000000",
+    "bic_swift": "DEMOPTPL",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": "VAT reverse charge (Article 196, Directive 2006/112/EC)"
+}

@@ -1,0 +1,41 @@
+{
+  "vendor_name": "Bluepine Network Supply LLC",
+  "vendor_tax_id": "00-0000001",
+  "customer_name": "Harbor Clinic Group",
+  "invoice_number": "BNS-24817",
+  "issue_date": "2026-10-14",
+  "due_date": "2026-11-13",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Fiber optic patch cable, 10 ft",
+      "quantity": 40,
+      "unit_price": 12.5,
+      "line_total": 500.0
+    },
+    {
+      "description": "Rack-mount patch panel, 24 port",
+      "quantity": 3,
+      "unit_price": 89.0,
+      "line_total": 267.0
+    },
+    {
+      "description": "On-site installation (hours)",
+      "quantity": 6,
+      "unit_price": 95.0,
+      "line_total": 570.0
+    }
+  ],
+  "subtotal": 1337.0,
+  "tax_rate_percent": 6,
+  "tax_amount": 80.22,
+  "total": 1417.22,
+  "payment": {
+    "bank_name": "First Demo Bank",
+    "iban": null,
+    "bic_swift": null,
+    "account_number": "000123456789",
+    "routing_or_sort_code": "000000001"
+  },
+  "notes": null
+}
