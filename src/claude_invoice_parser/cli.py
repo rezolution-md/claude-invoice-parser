@@ -7,6 +7,7 @@ from pathlib import Path
 
 import anthropic
 
+from .document import pdf_text
 from .extract import ExtractionError, extract_invoice
 from .report import Row, write_csv, write_xlsx
 from .validate import validate_invoice
@@ -58,7 +59,7 @@ def main(argv: list[str] | None = None) -> int:
             print("Network error reaching the Claude API.", file=sys.stderr)
             return 4
 
-        issues = validate_invoice(result.invoice)
+        issues = validate_invoice(result.invoice, pdf_text(pdf))
         row = Row(file=pdf.name, invoice=result.invoice, issues=issues)
         rows.append(row)
         total_in += result.input_tokens
