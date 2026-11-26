@@ -1,0 +1,50 @@
+[
+  {
+    "file": "01-us-table.pdf",
+    "input_tokens": 4390,
+    "output_tokens": 352,
+    "served_by": "claude-opus-5-5",
+    "seconds": 6.17,
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "file": "02-eu-vat.pdf",
+    "input_tokens": 4484,
+    "output_tokens": 369,
+    "served_by": "claude-opus-5-5",
+    "seconds": 3.93,
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "file": "03-freelancer-text.pdf",
+    "input_tokens": 4376,
+    "output_tokens": 642,
+    "served_by": "claude-opus-5-5",
+    "seconds": 5.68,
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "file": "04-uk-discount.pdf",
+    "input_tokens": 4397,
+    "output_tokens": 448,
+    "served_by": "claude-opus-5-5",
+    "seconds": 4.4,
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "file": "05-math-error.pdf",
+    "input_tokens": 4300,
+    "output_tokens": 385,
+    "served_by": "claude-opus-5-5",
+    "seconds": 3.82,
+    "status": "needs_review",
+    "issues": [
+      "line items add up to 1030.0, but subtotal is 1130.0",
+      "no bank account or IBAN found"
+    ]
+  }
+]
