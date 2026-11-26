@@ -1,0 +1,47 @@
+{
+  "vendor_name": "Dunakavics Informatikai Kft.",
+  "vendor_tax_id": "00000001-2-41",
+  "customer_name": "Gyöngyvirág Fogászati Bt.",
+  "invoice_number": "DK-2026/0517",
+  "issue_date": "2026-11-03",
+  "due_date": "2026-11-18",
+  "currency": "HUF",
+  "line_items": [
+    {
+      "description": "Hálózati audit",
+      "quantity": 1,
+      "unit_price": 485000.0,
+      "line_total": 485000.0
+    },
+    {
+      "description": "Wi-Fi hozzáférési pont telepítése",
+      "quantity": 4,
+      "unit_price": 48500.0,
+      "line_total": 194000.0
+    },
+    {
+      "description": "Rendszergazdai óradíj",
+      "quantity": 7,
+      "unit_price": 14000.0,
+      "line_total": 98000.0
+    },
+    {
+      "description": "Szoftverlicenc, 1 év",
+      "quantity": 5,
+      "unit_price": 23400.0,
+      "line_total": 117000.0
+    }
+  ],
+  "subtotal": 894000.0,
+  "tax_rate_percent": 27,
+  "tax_amount": 241380.0,
+  "total": 1135380.0,
+  "payment": {
+    "bank_name": "Próba Bank Zrt.",
+    "iban": "HU00000000000000000000000001",
+    "bic_swift": "DEMOHUHB",
+    "account_number": "00000000-00000000-00000001",
+    "routing_or_sort_code": null
+  },
+  "notes": null
+}

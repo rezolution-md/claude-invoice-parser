@@ -1,6 +1,7 @@
 """Compare extracted JSON (output/json) with the expected answers (samples/expected).
 
-Run after the parser: uv run python scripts/score.py [output/json]
+Run after the parser: uv run python scripts/score.py [output/json] [expected folder]
+The expected folder defaults to samples/expected; pass samples/holdout/expected for the held-out set.
 Prints field-level accuracy per invoice and overall, so a prompt or model change can be measured.
 """
 
@@ -42,8 +43,9 @@ def score_one(got: dict, want: dict) -> tuple[int, int, list[str]]:
 
 def main() -> int:
     out = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "output" / "json"
+    expected_dir = Path(sys.argv[2]) if len(sys.argv) > 2 else ROOT / "samples" / "expected"
     total_ok = total = 0
-    for expected in sorted((ROOT / "samples" / "expected").glob("*.json")):
+    for expected in sorted(expected_dir.glob("*.json")):
         got_path = out / expected.name
         if not got_path.exists():
             print(f"{expected.stem}: no output found")
