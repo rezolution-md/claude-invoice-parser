@@ -80,4 +80,17 @@ def write_xlsx(rows: list[Row], path: Path) -> None:
         for cell in sheet[1]:
             cell.font = bold
         sheet.freeze_panes = "A2"
+
+    # Invoices are untrusted documents, and the model copies their text verbatim.
+    # openpyxl writes any string starting with "=" (also "+", "-", "@") as a live
+    # formula, so a line description like =HYPERLINK("evil","Pay here") would run in
+    # the reader's spreadsheet (formula injection), and an honest "== terms ==" would
+    # break the cell. Force every string cell to the string type so its text is shown
+    # literally and never executed. Numbers are untouched.
+    for sheet in wb.worksheets:
+        for row_cells in sheet.iter_rows():
+            for cell in row_cells:
+                if isinstance(cell.value, str):
+                    cell.data_type = "s"
+
     wb.save(path)
