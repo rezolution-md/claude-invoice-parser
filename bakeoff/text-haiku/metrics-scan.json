@@ -1,0 +1,65 @@
+[
+  {
+    "file": "01-us-table-scan.pdf",
+    "source": "ocr",
+    "text_chars": 521,
+    "input_tokens": 3006,
+    "output_tokens": 775,
+    "cost_usd": 0.000688,
+    "extract_seconds": 1.52,
+    "api_seconds": 4.39,
+    "total_seconds": 5.91,
+    "issues": []
+  },
+  {
+    "file": "02-eu-vat-scan.pdf",
+    "source": "ocr",
+    "text_chars": 512,
+    "input_tokens": 3070,
+    "output_tokens": 1667,
+    "cost_usd": 0.001141,
+    "extract_seconds": 1.45,
+    "api_seconds": 6.96,
+    "total_seconds": 8.42,
+    "issues": []
+  },
+  {
+    "file": "03-freelancer-text-scan.pdf",
+    "source": "ocr",
+    "text_chars": 547,
+    "input_tokens": 3000,
+    "output_tokens": 1504,
+    "cost_usd": 0.001052,
+    "extract_seconds": 1.55,
+    "api_seconds": 6.67,
+    "total_seconds": 8.22,
+    "issues": []
+  },
+  {
+    "file": "04-uk-discount-scan.pdf",
+    "source": "ocr",
+    "text_chars": 504,
+    "input_tokens": 3003,
+    "output_tokens": 1135,
+    "cost_usd": 0.000868,
+    "extract_seconds": 1.63,
+    "api_seconds": 4.88,
+    "total_seconds": 6.52,
+    "issues": []
+  },
+  {
+    "file": "05-math-error-scan.pdf",
+    "source": "ocr",
+    "text_chars": 363,
+    "input_tokens": 2924,
+    "output_tokens": 1394,
+    "cost_usd": 0.000989,
+    "extract_seconds": 1.15,
+    "api_seconds": 6.09,
+    "total_seconds": 7.24,
+    "issues": [
+      "line items add up to 1030.0, but subtotal is 1130.0",
+      "no bank account or IBAN found"
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "file": "01-us-table.pdf",
+    "source": "text-layer",
+    "text_chars": 544,
+    "input_tokens": 3017,
+    "output_tokens": 762,
+    "cost_usd": 0.000683,
+    "extract_seconds": 0.02,
+    "api_seconds": 5.07,
+    "total_seconds": 5.09,
+    "issues": []
+  },
+  {
+    "file": "02-eu-vat.pdf",
+    "source": "text-layer",
+    "text_chars": 546,
+    "input_tokens": 3090,
+    "output_tokens": 881,
+    "cost_usd": 0.000749,
+    "extract_seconds": 0.03,
+    "api_seconds": 4.34,
+    "total_seconds": 4.36,
+    "issues": []
+  },
+  {
+    "file": "03-freelancer-text.pdf",
+    "source": "text-layer",
+    "text_chars": 541,
+    "input_tokens": 2982,
+    "output_tokens": 1149,
+    "cost_usd": 0.000873,
+    "extract_seconds": 0.02,
+    "api_seconds": 5.32,
+    "total_seconds": 5.33,
+    "issues": []
+  },
+  {
+    "file": "04-uk-discount.pdf",
+    "source": "text-layer",
+    "text_chars": 516,
+    "input_tokens": 3003,
+    "output_tokens": 735,
+    "cost_usd": 0.000668,
+    "extract_seconds": 0.02,
+    "api_seconds": 3.34,
+    "total_seconds": 3.35,
+    "issues": []
+  },
+  {
+    "file": "05-math-error.pdf",
+    "source": "text-layer",
+    "text_chars": 368,
+    "input_tokens": 2927,
+    "output_tokens": 782,
+    "cost_usd": 0.000684,
+    "extract_seconds": 0.02,
+    "api_seconds": 4.43,
+    "total_seconds": 4.44,
+    "issues": [
+      "line items add up to 1030.0, but subtotal is 1130.0",
+      "no bank account or IBAN found"
+    ]
+  }
+]
