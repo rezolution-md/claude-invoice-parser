@@ -93,6 +93,33 @@ Details worth noting from the output:
 
 The scorer checks 16 fields per invoice (all header fields, totals, payment identifiers and every line total). Descriptions and quantities were checked by hand.
 
+## Benchmark: three approaches on invoices they had never seen
+
+A perfect score on five known samples proves little, so I compared three ways of doing the same job on a held-out set (26 November 2026):
+
+- **vision:** this repo's pipeline. The PDF itself goes to `claude-opus-5-5`.
+- **text-haiku:** text is read on the machine (pdfplumber, or tesseract OCR when there is no text layer) and only that text goes to `claude-haiku-5-5`. Code: `src/claude_invoice_parser/text_haiku.py`.
+- **rules:** no AI at all. Text and OCR plus regular expressions. Code: `bakeoff/rules/extract_rules.py`.
+
+All three were built against the five original samples. They were then frozen and run unchanged on 12 new invoices plus 4 phone photos of some of them. The new invoices are in French, Spanish, Hungarian (HUF, no decimals), Italian, US and UK formats. They include a two-page invoice with 30 items, totals printed at the top, a logo above the vendor name, unusual labels, a customer name with a comma, and one invoice whose VAT is wrong by €0.50. The expected answers come from the same data that generated the PDFs. They were never read back from the documents.
+
+| | Unseen PDFs (12) | Phone photos (4) | Caught the VAT error | Cost per invoice |
+|---|---|---|---|---|
+| **vision** | **97.9%** | **98.4%** | yes | 3.4 ¢ |
+| **text-haiku** | **97.9%** | 81.2% | yes | 0.11 ¢ |
+| rules | 56.2% | 42.2% | no | $0 |
+
+Scores are fields correct out of 16 per invoice (`scripts/score.py`). Neither AI approach flagged a correct invoice by mistake.
+
+What this means in practice:
+
+- **Normal PDFs from accounting software:** text-haiku is as accurate as vision at about a thirtieth of the price (roughly $1 per 1,000 invoices).
+- **Phone photos and poor scans:** use vision. With text-haiku, OCR mistakes pass straight through (accents, an IBAN, a tax ID), though every amount was still read correctly.
+- **Rules:** they scored 100% on the five invoices they were written against and fell to about half on new layouts. Hand-written rules do not carry over to new vendors.
+- **Next fix:** most of the remaining vision misses are miscounted zeros in the fictional all-zero IBANs. The validator let them through, so per-country IBAN length and checksum checks come next.
+
+Full tables, every miss and token counts: [`bakeoff/round2/RESULTS.md`](bakeoff/round2/RESULTS.md). The test set and how it was built: [`samples/holdout/`](samples/holdout/README.md). Each approach was built in its own isolated sandbox. A separate sandbox built the test set, and a neutral one ran all three. A check afterwards confirmed that no approach's code changed between the two rounds.
+
 ## Extending it
 
 - **Gmail intake:** watch a label, save PDF attachments, run the parser (an n8n or Apps Script trigger works well).

@@ -1,0 +1,41 @@
+{
+  "vendor_name": "Atelier Lumière Bleue SARL",
+  "vendor_tax_id": null,
+  "customer_name": "Cabinet Dentaire des Tilleuls",
+  "invoice_number": "F-2026-1103",
+  "issue_date": "2026-11-03",
+  "due_date": "2026-12-03",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Maintenance éclairage LED, novembre",
+      "quantity": 1.0,
+      "unit_price": 380.0,
+      "line_total": 380.0
+    },
+    {
+      "description": "Dalle LED 60×60 cm",
+      "quantity": 12.0,
+      "unit_price": 42.5,
+      "line_total": 510.0
+    },
+    {
+      "description": "Intervention technicien (heures)",
+      "quantity": 3.5,
+      "unit_price": 64.0,
+      "line_total": 224.0
+    }
+  ],
+  "subtotal": 1114.0,
+  "tax_rate_percent": 20.0,
+  "tax_amount": 222.8,
+  "total": 1336.8,
+  "payment": {
+    "bank_name": "Banque Démo du Littoral",
+    "iban": "FR7600000000000000000000000",
+    "bic_swift": "DEMOFRPPXXX",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": "No VAT number printed; vendor SIRET is 000 000 001 00012. Late payment penalties at the legal rate. The document is marked as a fictional sample."
+}

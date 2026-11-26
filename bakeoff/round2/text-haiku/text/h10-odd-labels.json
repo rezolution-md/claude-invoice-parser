@@ -1,0 +1,47 @@
+{
+  "vendor_name": "Kowhai Ridge Joinery Limited",
+  "vendor_tax_id": "000-000-001",
+  "customer_name": "Tui Bay Holiday Park",
+  "invoice_number": "KRJ/26/114",
+  "issue_date": "2026-11-19",
+  "due_date": "2026-12-03",
+  "currency": "NZD",
+  "line_items": [
+    {
+      "description": "Rimu bookshelf, built-in",
+      "quantity": 1.0,
+      "unit_price": 2850.0,
+      "line_total": 2850.0
+    },
+    {
+      "description": "Kitchen cabinet doors, refaced",
+      "quantity": 14.0,
+      "unit_price": 165.0,
+      "line_total": 2310.0
+    },
+    {
+      "description": "Site measure & quote",
+      "quantity": 1.0,
+      "unit_price": 120.0,
+      "line_total": 120.0
+    },
+    {
+      "description": "Hardware & fittings (lot)",
+      "quantity": 1.0,
+      "unit_price": 386.4,
+      "line_total": 386.4
+    }
+  ],
+  "subtotal": 5666.4,
+  "tax_rate_percent": 15.0,
+  "tax_amount": 849.96,
+  "total": 6516.36,
+  "payment": {
+    "bank_name": "Demo Bank",
+    "iban": null,
+    "bic_swift": null,
+    "account_number": "00-0000-0000001-00",
+    "routing_or_sort_code": null
+  },
+  "notes": "Payment particulars to use: KRJ/26/114. Document is marked as a fictional sample."
+}

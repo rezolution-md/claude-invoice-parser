@@ -1,0 +1,22 @@
+{
+  "vendor_name": "; I",
+  "vendor_tax_id": "GB000000002",
+  "customer_name": null,
+  "invoice_number": "FF-2026-0412",
+  "issue_date": "2026-11-04",
+  "due_date": "2026-12-02",
+  "currency": "GBP",
+  "line_items": [],
+  "subtotal": null,
+  "tax_rate_percent": 20.0,
+  "tax_amount": 206.8,
+  "total": 1240.8,
+  "payment": {
+    "bank_name": "Demo Bank pic i",
+    "iban": null,
+    "bic_swift": null,
+    "account_number": "00004321",
+    "routing_or_sort_code": "00-00-01"
+  },
+  "notes": null
+}

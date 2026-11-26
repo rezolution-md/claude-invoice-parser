@@ -1,0 +1,19 @@
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 8 packages in 101ms
+OK     h01-fr-tva.pdf: text-layer, 3124 in / 1309 out, $0.000967, 5.89s
+OK     h02-es-iva.pdf: text-layer, 3130 in / 1196 out, $0.000911, 5.14s
+OK     h03-hu-afa.pdf: text-layer, 3322 in / 1054 out, $0.000859, 4.76s
+OK     h04-it-iva.pdf: text-layer, 3155 in / 1549 out, $0.001090, 7.04s
+OK     h05-us-commas.pdf: text-layer, 3146 in / 777 out, $0.000703, 3.61s
+OK     h06-uk-ddmm.pdf: text-layer, 3093 in / 846 out, $0.000732, 3.64s
+OK     h07-two-column-totals-top.pdf: text-layer, 3095 in / 1233 out, $0.000926, 5.72s
+OK     h08-banner-logo.pdf: text-layer, 3093 in / 1088 out, $0.000853, 4.78s
+OK     h09-two-page.pdf: text-layer, 4037 in / 3067 out, $0.001937, 9.69s
+OK     h10-odd-labels.pdf: text-layer, 3106 in / 873 out, $0.000747, 4.09s
+REVIEW h11-vat-error.pdf: text-layer, 3192 in / 995 out, $0.000817, 3.84s
+        ['21.0% of 1840.0 is 386.4, but tax amount is 386.9']
+OK     h12-comma-customer.pdf: text-layer, 3109 in / 713 out, $0.000667, 3.38s
+Total: 38602 in / 14700 out, $0.011209
+WALL_CLOCK_SECONDS 64.0

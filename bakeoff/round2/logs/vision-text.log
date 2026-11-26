@@ -1,0 +1,14 @@
+h01-fr-tva.pdf: 4520 in / 723 out, 7.4s, claude-opus-5-5, ok
+h02-es-iva.pdf: 4525 in / 623 out, 6.0s, claude-opus-5-5, ok
+h03-hu-afa.pdf: 4718 in / 730 out, 6.7s, claude-opus-5-5, ok
+h04-it-iva.pdf: 4549 in / 466 out, 4.4s, claude-opus-5-5, ok
+h05-us-commas.pdf: 4520 in / 552 out, 5.1s, claude-opus-5-5, ok
+h06-uk-ddmm.pdf: 4489 in / 398 out, 4.1s, claude-opus-5-5, ok
+h07-two-column-totals-top.pdf: 4492 in / 432 out, 3.7s, claude-opus-5-5, ok
+h08-banner-logo.pdf: 4489 in / 426 out, 4.0s, claude-opus-5-5, ok
+h09-two-page.pdf: 6998 in / 2601 out, 29.2s, claude-opus-5-5, ok
+h10-odd-labels.pdf: 4500 in / 424 out, 4.5s, claude-opus-5-5, ok
+h11-vat-error.pdf: 4589 in / 639 out, 6.0s, claude-opus-5-5, needs_review
+    - 21.0% of 1840.0 is 386.4, but tax amount is 386.9
+h12-comma-customer.pdf: 4485 in / 434 out, 4.2s, claude-opus-5-5, ok
+WALL_CLOCK_SECONDS 89.7

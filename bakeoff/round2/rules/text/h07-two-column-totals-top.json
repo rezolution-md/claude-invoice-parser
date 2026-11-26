@@ -1,0 +1,29 @@
+{
+  "vendor_name": "Invoice",
+  "vendor_tax_id": "IE0000001",
+  "customer_name": "Ballymore Veterinary Hospital",
+  "invoice_number": "GDS-7781",
+  "issue_date": null,
+  "due_date": null,
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Main Street Net",
+      "quantity": null,
+      "unit_price": null,
+      "line_total": 1561.0
+    }
+  ],
+  "subtotal": null,
+  "tax_rate_percent": 23.0,
+  "tax_amount": 359.03,
+  "total": 1920.03,
+  "payment": {
+    "bank_name": null,
+    "iban": null,
+    "bic_swift": "DEMOIE2D",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": null
+}

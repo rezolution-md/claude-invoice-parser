@@ -1,0 +1,203 @@
+{
+  "vendor_name": "Alpenrand Laborbedarf AG",
+  "vendor_tax_id": "CHE-000.000.001",
+  "customer_name": "Labor Seeblick GmbH",
+  "invoice_number": "AL-2026-1190",
+  "issue_date": "2026-11-03",
+  "due_date": "2026-12-03",
+  "currency": "CHF",
+  "line_items": [
+    {
+      "description": "Nitrile gloves, size M, box of 100",
+      "quantity": 12,
+      "unit_price": 8.9,
+      "line_total": 106.8
+    },
+    {
+      "description": "Nitrile gloves, size L, box of 100",
+      "quantity": 8,
+      "unit_price": 8.9,
+      "line_total": 71.2
+    },
+    {
+      "description": "Pipette tips 200 µl, rack of 96",
+      "quantity": 20,
+      "unit_price": 6.4,
+      "line_total": 128.0
+    },
+    {
+      "description": "Pipette tips 1000 µl, rack of 96",
+      "quantity": 15,
+      "unit_price": 7.1,
+      "line_total": 106.5
+    },
+    {
+      "description": "Microcentrifuge tubes 1.5 ml, bag of 500",
+      "quantity": 6,
+      "unit_price": 14.5,
+      "line_total": 87.0
+    },
+    {
+      "description": "Conical tubes 15 ml, pack of 50",
+      "quantity": 10,
+      "unit_price": 11.8,
+      "line_total": 118.0
+    },
+    {
+      "description": "Conical tubes 50 ml, pack of 25",
+      "quantity": 10,
+      "unit_price": 9.6,
+      "line_total": 96.0
+    },
+    {
+      "description": "Petri dishes 90 mm, sleeve of 20",
+      "quantity": 25,
+      "unit_price": 5.2,
+      "line_total": 130.0
+    },
+    {
+      "description": "Serological pipettes 10 ml, case of 200",
+      "quantity": 2,
+      "unit_price": 68.0,
+      "line_total": 136.0
+    },
+    {
+      "description": "Cryo boxes, 81 places",
+      "quantity": 12,
+      "unit_price": 4.75,
+      "line_total": 57.0
+    },
+    {
+      "description": "Lab marker, black, pack of 10",
+      "quantity": 3,
+      "unit_price": 13.2,
+      "line_total": 39.6
+    },
+    {
+      "description": "Ethanol 70%, 5 l",
+      "quantity": 4,
+      "unit_price": 29.5,
+      "line_total": 118.0
+    },
+    {
+      "description": "Disinfectant wipes, tub of 150",
+      "quantity": 9,
+      "unit_price": 12.4,
+      "line_total": 111.6
+    },
+    {
+      "description": "Parafilm roll, 10 cm × 38 m",
+      "quantity": 2,
+      "unit_price": 47.0,
+      "line_total": 94.0
+    },
+    {
+      "description": "Weighing boats 100 ml, pack of 500",
+      "quantity": 1,
+      "unit_price": 39.9,
+      "line_total": 39.9
+    },
+    {
+      "description": "Glass beakers 250 ml, pack of 12",
+      "quantity": 2,
+      "unit_price": 54.0,
+      "line_total": 108.0
+    },
+    {
+      "description": "Magnetic stir bars, assorted set",
+      "quantity": 1,
+      "unit_price": 32.5,
+      "line_total": 32.5
+    },
+    {
+      "description": "Disposable lab coat, size L",
+      "quantity": 4,
+      "unit_price": 27.8,
+      "line_total": 111.2
+    },
+    {
+      "description": "Safety goggles, anti-fog",
+      "quantity": 6,
+      "unit_price": 11.9,
+      "line_total": 71.4
+    },
+    {
+      "description": "Sharps container 2 l",
+      "quantity": 10,
+      "unit_price": 3.85,
+      "line_total": 38.5
+    },
+    {
+      "description": "Biohazard bags 600 × 800 mm, roll of 50",
+      "quantity": 4,
+      "unit_price": 18.6,
+      "line_total": 74.4
+    },
+    {
+      "description": "pH buffer solution pH 7, 500 ml",
+      "quantity": 3,
+      "unit_price": 16.2,
+      "line_total": 48.6
+    },
+    {
+      "description": "pH buffer solution pH 4, 500 ml",
+      "quantity": 3,
+      "unit_price": 16.2,
+      "line_total": 48.6
+    },
+    {
+      "description": "Filter paper Ø 125 mm, pack of 100",
+      "quantity": 5,
+      "unit_price": 9.4,
+      "line_total": 47.0
+    },
+    {
+      "description": "Syringe filters 0.22 µm, pack of 50",
+      "quantity": 4,
+      "unit_price": 42.0,
+      "line_total": 168.0
+    },
+    {
+      "description": "Bench protector sheets, roll",
+      "quantity": 2,
+      "unit_price": 36.5,
+      "line_total": 73.0
+    },
+    {
+      "description": "Freezer labels, 1000 pcs",
+      "quantity": 2,
+      "unit_price": 24.0,
+      "line_total": 48.0
+    },
+    {
+      "description": "Tube rack, 4-way, blue",
+      "quantity": 6,
+      "unit_price": 7.3,
+      "line_total": 43.8
+    },
+    {
+      "description": "Cooling block for 1.5 ml tubes",
+      "quantity": 1,
+      "unit_price": 64.0,
+      "line_total": 64.0
+    },
+    {
+      "description": "Delivery, temperature-controlled",
+      "quantity": 1,
+      "unit_price": 28.0,
+      "line_total": 28.0
+    }
+  ],
+  "subtotal": 2444.6,
+  "tax_rate_percent": 8.1,
+  "tax_amount": 198.01,
+  "total": 2642.61,
+  "payment": {
+    "bank_name": "Demo Kantonalbank",
+    "iban": "CH0000000000000000001",
+    "bic_swift": "DEMOCHZZ",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": null
+}

@@ -1,0 +1,6 @@
+h03-hu-afa.pdf: 4098 in / 888 out, 8.3s, claude-opus-5-5, ok
+h06-uk-ddmm.pdf: 4098 in / 398 out, 3.8s, claude-opus-5-5, ok
+h09-two-page.pdf: 5651 in / 2127 out, 15.3s, claude-opus-5-5, ok
+h11-vat-error.pdf: 4098 in / 717 out, 6.7s, claude-opus-5-5, needs_review
+    - 21.0% of 1840.0 is 386.4, but tax amount is 386.9
+WALL_CLOCK_SECONDS 37.0

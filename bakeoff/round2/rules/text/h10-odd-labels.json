@@ -1,0 +1,22 @@
+{
+  "vendor_name": "STATEMENT OF WORK COMPLETED / TAX INVOICE",
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "invoice_number": "",
+  "issue_date": null,
+  "due_date": null,
+  "currency": "USD",
+  "line_items": [],
+  "subtotal": null,
+  "tax_rate_percent": 15.0,
+  "tax_amount": 849.96,
+  "total": 849.96,
+  "payment": {
+    "bank_name": null,
+    "iban": null,
+    "bic_swift": null,
+    "account_number": "00-0000-0000001-00",
+    "routing_or_sort_code": null
+  },
+  "notes": null
+}

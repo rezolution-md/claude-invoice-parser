@@ -1,0 +1,112 @@
+[
+  {
+    "file": "h01-fr-tva.pdf",
+    "input_tokens": 4520,
+    "output_tokens": 723,
+    "served_by": "claude-opus-5-5",
+    "seconds": 7.38,
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "file": "h02-es-iva.pdf",
+    "input_tokens": 4525,
+    "output_tokens": 623,
+    "served_by": "claude-opus-5-5",
+    "seconds": 5.96,
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "file": "h03-hu-afa.pdf",
+    "input_tokens": 4718,
+    "output_tokens": 730,
+    "served_by": "claude-opus-5-5",
+    "seconds": 6.69,
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "file": "h04-it-iva.pdf",
+    "input_tokens": 4549,
+    "output_tokens": 466,
+    "served_by": "claude-opus-5-5",
+    "seconds": 4.38,
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "file": "h05-us-commas.pdf",
+    "input_tokens": 4520,
+    "output_tokens": 552,
+    "served_by": "claude-opus-5-5",
+    "seconds": 5.13,
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "file": "h06-uk-ddmm.pdf",
+    "input_tokens": 4489,
+    "output_tokens": 398,
+    "served_by": "claude-opus-5-5",
+    "seconds": 4.06,
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "file": "h07-two-column-totals-top.pdf",
+    "input_tokens": 4492,
+    "output_tokens": 432,
+    "served_by": "claude-opus-5-5",
+    "seconds": 3.67,
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "file": "h08-banner-logo.pdf",
+    "input_tokens": 4489,
+    "output_tokens": 426,
+    "served_by": "claude-opus-5-5",
+    "seconds": 3.99,
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "file": "h09-two-page.pdf",
+    "input_tokens": 6998,
+    "output_tokens": 2601,
+    "served_by": "claude-opus-5-5",
+    "seconds": 29.17,
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "file": "h10-odd-labels.pdf",
+    "input_tokens": 4500,
+    "output_tokens": 424,
+    "served_by": "claude-opus-5-5",
+    "seconds": 4.48,
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "file": "h11-vat-error.pdf",
+    "input_tokens": 4589,
+    "output_tokens": 639,
+    "served_by": "claude-opus-5-5",
+    "seconds": 5.98,
+    "status": "needs_review",
+    "issues": [
+      "21.0% of 1840.0 is 386.4, but tax amount is 386.9"
+    ]
+  },
+  {
+    "file": "h12-comma-customer.pdf",
+    "input_tokens": 4485,
+    "output_tokens": 434,
+    "served_by": "claude-opus-5-5",
+    "seconds": 4.25,
+    "status": "ok",
+    "issues": []
+  }
+]

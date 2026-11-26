@@ -1,0 +1,9 @@
+REVIEW h03-hu-afa.pdf: ocr, 3303 in / 2671 out, $0.001666, 15.36s
+        ['issue date missing']
+OK     h06-uk-ddmm.pdf: ocr, 3116 in / 2050 out, $0.001337, 11.81s
+REVIEW h09-two-page.pdf: ocr, 3879 in / 4333 out, $0.002554, 20.98s
+        ['no bank account or IBAN found']
+REVIEW h11-vat-error.pdf: ocr, 3123 in / 1666 out, $0.001145, 9.42s
+        ['21.0% of 1840.0 is 386.4, but tax amount is 386.9']
+Total: 13421 in / 10720 out, $0.006702
+WALL_CLOCK_SECONDS 59.1
