@@ -1,0 +1,148 @@
+[
+  {
+    "file": "h01-fr-tva.pdf",
+    "source": "text-layer",
+    "text_chars": 733,
+    "input_tokens": 3124,
+    "output_tokens": 1309,
+    "cost_usd": 0.000967,
+    "extract_seconds": 0.04,
+    "api_seconds": 5.86,
+    "total_seconds": 5.89,
+    "issues": []
+  },
+  {
+    "file": "h02-es-iva.pdf",
+    "source": "text-layer",
+    "text_chars": 732,
+    "input_tokens": 3130,
+    "output_tokens": 1196,
+    "cost_usd": 0.000911,
+    "extract_seconds": 0.06,
+    "api_seconds": 5.08,
+    "total_seconds": 5.14,
+    "issues": []
+  },
+  {
+    "file": "h03-hu-afa.pdf",
+    "source": "text-layer",
+    "text_chars": 1014,
+    "input_tokens": 3322,
+    "output_tokens": 1054,
+    "cost_usd": 0.000859,
+    "extract_seconds": 0.05,
+    "api_seconds": 4.71,
+    "total_seconds": 4.76,
+    "issues": []
+  },
+  {
+    "file": "h04-it-iva.pdf",
+    "source": "text-layer",
+    "text_chars": 774,
+    "input_tokens": 3155,
+    "output_tokens": 1549,
+    "cost_usd": 0.00109,
+    "extract_seconds": 0.03,
+    "api_seconds": 7.01,
+    "total_seconds": 7.04,
+    "issues": []
+  },
+  {
+    "file": "h05-us-commas.pdf",
+    "source": "text-layer",
+    "text_chars": 777,
+    "input_tokens": 3146,
+    "output_tokens": 777,
+    "cost_usd": 0.000703,
+    "extract_seconds": 0.03,
+    "api_seconds": 3.58,
+    "total_seconds": 3.61,
+    "issues": []
+  },
+  {
+    "file": "h06-uk-ddmm.pdf",
+    "source": "text-layer",
+    "text_chars": 739,
+    "input_tokens": 3093,
+    "output_tokens": 846,
+    "cost_usd": 0.000732,
+    "extract_seconds": 0.03,
+    "api_seconds": 3.6,
+    "total_seconds": 3.64,
+    "issues": []
+  },
+  {
+    "file": "h07-two-column-totals-top.pdf",
+    "source": "text-layer",
+    "text_chars": 667,
+    "input_tokens": 3095,
+    "output_tokens": 1233,
+    "cost_usd": 0.000926,
+    "extract_seconds": 0.03,
+    "api_seconds": 5.69,
+    "total_seconds": 5.72,
+    "issues": []
+  },
+  {
+    "file": "h08-banner-logo.pdf",
+    "source": "text-layer",
+    "text_chars": 704,
+    "input_tokens": 3093,
+    "output_tokens": 1088,
+    "cost_usd": 0.000853,
+    "extract_seconds": 0.03,
+    "api_seconds": 4.75,
+    "total_seconds": 4.78,
+    "issues": []
+  },
+  {
+    "file": "h09-two-page.pdf",
+    "source": "text-layer",
+    "text_chars": 2279,
+    "input_tokens": 4037,
+    "output_tokens": 3067,
+    "cost_usd": 0.001937,
+    "extract_seconds": 0.09,
+    "api_seconds": 9.6,
+    "total_seconds": 9.69,
+    "issues": []
+  },
+  {
+    "file": "h10-odd-labels.pdf",
+    "source": "text-layer",
+    "text_chars": 740,
+    "input_tokens": 3106,
+    "output_tokens": 873,
+    "cost_usd": 0.000747,
+    "extract_seconds": 0.03,
+    "api_seconds": 4.06,
+    "total_seconds": 4.09,
+    "issues": []
+  },
+  {
+    "file": "h11-vat-error.pdf",
+    "source": "text-layer",
+    "text_chars": 803,
+    "input_tokens": 3192,
+    "output_tokens": 995,
+    "cost_usd": 0.000817,
+    "extract_seconds": 0.03,
+    "api_seconds": 3.81,
+    "total_seconds": 3.84,
+    "issues": [
+      "21.0% of 1840.0 is 386.4, but tax amount is 386.9"
+    ]
+  },
+  {
+    "file": "h12-comma-customer.pdf",
+    "source": "text-layer",
+    "text_chars": 724,
+    "input_tokens": 3109,
+    "output_tokens": 713,
+    "cost_usd": 0.000667,
+    "extract_seconds": 0.03,
+    "api_seconds": 3.35,
+    "total_seconds": 3.38,
+    "issues": []
+  }
+]

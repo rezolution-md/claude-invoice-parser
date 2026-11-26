@@ -1,0 +1,29 @@
+{
+  "vendor_name": "Officine Grafiche Vallerosa S.r.l.",
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "invoice_number": "",
+  "issue_date": null,
+  "due_date": null,
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Imponibile €",
+      "quantity": null,
+      "unit_price": null,
+      "line_total": 2051.0
+    }
+  ],
+  "subtotal": null,
+  "tax_rate_percent": 22.0,
+  "tax_amount": 451.22,
+  "total": 451.22,
+  "payment": {
+    "bank_name": null,
+    "iban": "IT00X0000000000000000000000",
+    "bic_swift": "DEMOITMMXXX",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": null
+}

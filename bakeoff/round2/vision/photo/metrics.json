@@ -1,0 +1,40 @@
+[
+  {
+    "file": "h03-hu-afa.pdf",
+    "input_tokens": 4098,
+    "output_tokens": 888,
+    "served_by": "claude-opus-5-5",
+    "seconds": 8.33,
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "file": "h06-uk-ddmm.pdf",
+    "input_tokens": 4098,
+    "output_tokens": 398,
+    "served_by": "claude-opus-5-5",
+    "seconds": 3.84,
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "file": "h09-two-page.pdf",
+    "input_tokens": 5651,
+    "output_tokens": 2127,
+    "served_by": "claude-opus-5-5",
+    "seconds": 15.35,
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "file": "h11-vat-error.pdf",
+    "input_tokens": 4098,
+    "output_tokens": 717,
+    "served_by": "claude-opus-5-5",
+    "seconds": 6.73,
+    "status": "needs_review",
+    "issues": [
+      "21.0% of 1840.0 is 386.4, but tax amount is 386.9"
+    ]
+  }
+]

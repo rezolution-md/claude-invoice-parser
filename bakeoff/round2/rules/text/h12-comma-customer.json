@@ -1,0 +1,22 @@
+{
+  "vendor_name": "Larchmont Survey Instruments Inc.",
+  "vendor_tax_id": null,
+  "customer_name": "Invoice No. LSI-55102",
+  "invoice_number": "LSI-55102",
+  "issue_date": "2026-11-05",
+  "due_date": "2026-11-20",
+  "currency": "USD",
+  "line_items": [],
+  "subtotal": 2635.0,
+  "tax_rate_percent": 5.0,
+  "tax_amount": 131.75,
+  "total": 2766.75,
+  "payment": {
+    "bank_name": null,
+    "iban": null,
+    "bic_swift": null,
+    "account_number": "0001234567",
+    "routing_or_sort_code": "000000011"
+  },
+  "notes": null
+}

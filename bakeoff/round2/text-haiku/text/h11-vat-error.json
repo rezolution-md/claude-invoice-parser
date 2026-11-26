@@ -1,0 +1,53 @@
+{
+  "vendor_name": "Polderwind Installatietechniek B.V.",
+  "vendor_tax_id": "NL000000001B01",
+  "customer_name": "Huisartsenpraktijk De Linde",
+  "invoice_number": "PW-2026-0219",
+  "issue_date": "2026-11-09",
+  "due_date": "2026-11-23",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Onderhoud warmtepomp",
+      "quantity": 1.0,
+      "unit_price": 245.0,
+      "line_total": 245.0
+    },
+    {
+      "description": "Vervangen expansievat",
+      "quantity": 1.0,
+      "unit_price": 189.0,
+      "line_total": 189.0
+    },
+    {
+      "description": "Arbeid (uur)",
+      "quantity": 6.0,
+      "unit_price": 68.5,
+      "line_total": 411.0
+    },
+    {
+      "description": "Voorrijkosten",
+      "quantity": 1.0,
+      "unit_price": 35.0,
+      "line_total": 35.0
+    },
+    {
+      "description": "Thermostaat, slim",
+      "quantity": 2.0,
+      "unit_price": 480.0,
+      "line_total": 960.0
+    }
+  ],
+  "subtotal": 1840.0,
+  "tax_rate_percent": 21.0,
+  "tax_amount": 386.9,
+  "total": 2226.9,
+  "payment": {
+    "bank_name": "Demobank Noord",
+    "iban": "NL00DEMO0000000001",
+    "bic_swift": "DEMONL2A",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": null
+}

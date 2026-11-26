@@ -1,0 +1,41 @@
+{
+  "vendor_name": "Fernhollow Facilities Ltd",
+  "vendor_tax_id": "GB000000002",
+  "customer_name": "St Brannoc Primary School",
+  "invoice_number": "FF-2026-0412",
+  "issue_date": "2026-11-04",
+  "due_date": "2026-12-02",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Window cleaning, October",
+      "quantity": 1.0,
+      "unit_price": 340.0,
+      "line_total": 340.0
+    },
+    {
+      "description": "Gutter clearance",
+      "quantity": 2.0,
+      "unit_price": 95.0,
+      "line_total": 190.0
+    },
+    {
+      "description": "Pressure washing, playground (m²)",
+      "quantity": 420.0,
+      "unit_price": 1.2,
+      "line_total": 504.0
+    }
+  ],
+  "subtotal": 1034.0,
+  "tax_rate_percent": 20.0,
+  "tax_amount": 206.8,
+  "total": 1240.8,
+  "payment": {
+    "bank_name": "Demo Bank plc",
+    "iban": null,
+    "bic_swift": null,
+    "account_number": "00004321",
+    "routing_or_sort_code": "00-00-01"
+  },
+  "notes": "Services for the period 01/10/2026 to 31/10/2026. Tax point 04/11/2026. Quote FF-2026-0412 as payment reference."
+}

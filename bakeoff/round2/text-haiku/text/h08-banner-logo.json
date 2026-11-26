@@ -1,0 +1,47 @@
+{
+  "vendor_name": "Helix Fieldworks Pty Ltd",
+  "vendor_tax_id": "ABN 00 000 000 001",
+  "customer_name": "Coorong Water Testing Co-op",
+  "invoice_number": "HX-00862",
+  "issue_date": "2026-11-06",
+  "due_date": "2026-11-20",
+  "currency": "AUD",
+  "line_items": [
+    {
+      "description": "Soil moisture probe, 1.2 m",
+      "quantity": 8.0,
+      "unit_price": 186.0,
+      "line_total": 1488.0
+    },
+    {
+      "description": "Data logger, 4-channel",
+      "quantity": 2.0,
+      "unit_price": 349.0,
+      "line_total": 698.0
+    },
+    {
+      "description": "Calibration service",
+      "quantity": 1.0,
+      "unit_price": 260.0,
+      "line_total": 260.0
+    },
+    {
+      "description": "Freight, Adelaide",
+      "quantity": 1.0,
+      "unit_price": 45.0,
+      "line_total": 45.0
+    }
+  ],
+  "subtotal": 2491.0,
+  "tax_rate_percent": 10.0,
+  "tax_amount": 249.1,
+  "total": 2740.1,
+  "payment": {
+    "bank_name": "Demo Bank Australia",
+    "iban": null,
+    "bic_swift": null,
+    "account_number": "00012345",
+    "routing_or_sort_code": "BSB 000-002"
+  },
+  "notes": "Direct deposit payment. Payment terms: 14 days. Document is marked as a fictional sample. Subtotal, GST and total are shown ex GST and inc GST respectively."
+}

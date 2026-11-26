@@ -1,0 +1,47 @@
+{
+  "vendor_name": "REDWATER MECHANICAL CONTRACTORS INC.",
+  "vendor_tax_id": null,
+  "customer_name": "Lakeshore Senior Living",
+  "invoice_number": "RMC-30917",
+  "issue_date": "2026-11-03",
+  "due_date": "2026-12-03",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Rooftop HVAC unit replacement, 10 ton",
+      "quantity": 1.0,
+      "unit_price": 9850.0,
+      "line_total": 9850.0
+    },
+    {
+      "description": "Crane rental (day)",
+      "quantity": 1.0,
+      "unit_price": 1275.0,
+      "line_total": 1275.0
+    },
+    {
+      "description": "Ductwork modification (hours)",
+      "quantity": 15.0,
+      "unit_price": 118.0,
+      "line_total": 1770.0
+    },
+    {
+      "description": "Refrigerant R-454B (lb)",
+      "quantity": 22.0,
+      "unit_price": 31.5,
+      "line_total": 693.0
+    }
+  ],
+  "subtotal": 13588.0,
+  "tax_rate_percent": 8.25,
+  "tax_amount": 1121.01,
+  "total": 14709.01,
+  "payment": {
+    "bank_name": "First Demo Bank",
+    "iban": null,
+    "bic_swift": null,
+    "account_number": "000987654321",
+    "routing_or_sort_code": "000000002"
+  },
+  "notes": "Job: Building B rooftop. Remit by ACH or wire. Contractor License #000001 printed (not a tax ID). Document marked as a fictional sample."
+}

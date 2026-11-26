@@ -1,0 +1,161 @@
+{
+  "vendor_name": "Alpenrand Laborbedart AG Invoice AL-2026-1190",
+  "vendor_tax_id": null,
+  "customer_name": "no 10077 Seeweg 2",
+  "invoice_number": "AL-2026-1190",
+  "issue_date": "2026-11-03",
+  "due_date": "2026-11-05",
+  "currency": "CHF",
+  "line_items": [
+    {
+      "description": "Nitrile gloves, size M, box of 100°",
+      "quantity": 12.0,
+      "unit_price": 8.9,
+      "line_total": 106.8
+    },
+    {
+      "description": "2 Nitrile gloves, size L. 0 +",
+      "quantity": 1.0,
+      "unit_price": 8.9,
+      "line_total": 71.2
+    },
+    {
+      "description": "3 Pipette tips 200 yl, rack of 96.",
+      "quantity": 20.0,
+      "unit_price": 6.4,
+      "line_total": 128.0
+    },
+    {
+      "description": "4 Pipette tips 1000 jl 96",
+      "quantity": 15.0,
+      "unit_price": 7.1,
+      "line_total": 106.5
+    },
+    {
+      "description": "5 Microc ye tubes 1.5 mi, bag of 500",
+      "quantity": 6.0,
+      "unit_price": 14.5,
+      "line_total": 87.0
+    },
+    {
+      "description": "6 Conical tut 1 150",
+      "quantity": 10.0,
+      "unit_price": 11.8,
+      "line_total": 118.0
+    },
+    {
+      "description": "7 Conical tubes 50 m pr of 25",
+      "quantity": 10.0,
+      "unit_price": 9.6,
+      "line_total": 96.0
+    },
+    {
+      "description": "8 Petri dishes: of 20",
+      "quantity": 25.0,
+      "unit_price": 5.2,
+      "line_total": 130.0
+    },
+    {
+      "description": "9 Serological pipettes ) ‚case of 200",
+      "quantity": 2.0,
+      "unit_price": 68.0,
+      "line_total": 136.0
+    },
+    {
+      "description": "10 Cryo boxes,",
+      "quantity": 12.0,
+      "unit_price": 4.75,
+      "line_total": 57.0
+    },
+    {
+      "description": "11 Lab marker, black, pack of 10",
+      "quantity": 3.0,
+      "unit_price": 13.2,
+      "line_total": 39.6
+    },
+    {
+      "description": "ı2 Ethanol?",
+      "quantity": 4.0,
+      "unit_price": 29.5,
+      "line_total": 118.0
+    },
+    {
+      "description": "13 Disinfed . tub of 150",
+      "quantity": 9.0,
+      "unit_price": 12.4,
+      "line_total": 111.6
+    },
+    {
+      "description": "14 Paral 38m",
+      "quantity": 2.0,
+      "unit_price": 47.0,
+      "line_total": 94.0
+    },
+    {
+      "description": "15 Weighing boats 100 mi, pack of 500",
+      "quantity": 1.0,
+      "unit_price": 39.9,
+      "line_total": 39.9
+    },
+    {
+      "description": "16 Gia Omi, pack of 12",
+      "quantity": 2.0,
+      "unit_price": 54.0,
+      "line_total": 108.0
+    },
+    {
+      "description": "17 Ma ir bars, assorted set",
+      "quantity": 1.0,
+      "unit_price": 32.5,
+      "line_total": 32.5
+    },
+    {
+      "description": "18 ‚coat, size L",
+      "quantity": 4.0,
+      "unit_price": 27.8,
+      "line_total": 111.2
+    },
+    {
+      "description": "19 s, anti-fog",
+      "quantity": 6.0,
+      "unit_price": 11.9,
+      "line_total": 71.4
+    },
+    {
+      "description": "20 ner 2!",
+      "quantity": 10.0,
+      "unit_price": 3.85,
+      "line_total": 38.5
+    },
+    {
+      "description": "21 E bags 600 « 800 mm, roll of 50",
+      "quantity": 4.0,
+      "unit_price": 18.6,
+      "line_total": 74.4
+    },
+    {
+      "description": "lution pH 7, 500 mi",
+      "quantity": 3.0,
+      "unit_price": 16.2,
+      "line_total": 48.6
+    },
+    {
+      "description": "Carried forward",
+      "quantity": null,
+      "unit_price": null,
+      "line_total": 1924.2
+    }
+  ],
+  "subtotal": null,
+  "tax_rate_percent": 8.1,
+  "tax_amount": 198.01,
+  "total": 642.61,
+  "payment": {
+    "bank_name": null,
+    "iban": null,
+    "bic_swift": "DEMOCHZZ",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": null
+}

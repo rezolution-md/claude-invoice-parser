@@ -1,0 +1,47 @@
+{
+  "vendor_name": "Glasán Data Services Ltd",
+  "vendor_tax_id": "IE0000001T",
+  "customer_name": "Ballymore Veterinary Hospital",
+  "invoice_number": "GDS-7781",
+  "issue_date": "2026-10-28",
+  "due_date": "2026-11-27",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Managed backup, 2 TB tier 1",
+      "quantity": null,
+      "unit_price": 220.0,
+      "line_total": 220.0
+    },
+    {
+      "description": "Email hosting, per mailbox",
+      "quantity": 18.0,
+      "unit_price": 4.5,
+      "line_total": 81.0
+    },
+    {
+      "description": "Firewall subscription, annual",
+      "quantity": 1.0,
+      "unit_price": 640.0,
+      "line_total": 640.0
+    },
+    {
+      "description": "Remote support block (5 h)",
+      "quantity": 2.0,
+      "unit_price": 310.0,
+      "line_total": 620.0
+    }
+  ],
+  "subtotal": 1561.0,
+  "tax_rate_percent": 23.0,
+  "tax_amount": 359.03,
+  "total": 1920.03,
+  "payment": {
+    "bank_name": "Demo Bank Ireland",
+    "iban": "IE00DEMO00000000000000",
+    "bic_swift": "DEMOIE2D",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": null
+}

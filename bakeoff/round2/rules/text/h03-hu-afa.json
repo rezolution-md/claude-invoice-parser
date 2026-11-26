@@ -1,0 +1,22 @@
+{
+  "vendor_name": "SZÁMLA",
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "invoice_number": "",
+  "issue_date": null,
+  "due_date": null,
+  "currency": "USD",
+  "line_items": [],
+  "subtotal": null,
+  "tax_rate_percent": null,
+  "tax_amount": null,
+  "total": 0.0,
+  "payment": {
+    "bank_name": null,
+    "iban": "HU00000000000000000000000001SWIFT",
+    "bic_swift": "DEMOHUHB",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": null
+}

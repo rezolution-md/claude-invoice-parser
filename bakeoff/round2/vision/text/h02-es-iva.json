@@ -1,0 +1,47 @@
+{
+  "vendor_name": "Talleres Brisamar S.L.",
+  "vendor_tax_id": "B00000001",
+  "customer_name": "Clínica Veterinaria Los Almendros",
+  "invoice_number": "FV-2026/0388",
+  "issue_date": "2026-10-15",
+  "due_date": "2026-11-14",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Revisión anual climatización",
+      "quantity": 1.0,
+      "unit_price": 290.0,
+      "line_total": 290.0
+    },
+    {
+      "description": "Filtro HEPA H13",
+      "quantity": 6.0,
+      "unit_price": 137.4,
+      "line_total": 824.4
+    },
+    {
+      "description": "Mano de obra (horas)",
+      "quantity": 4.0,
+      "unit_price": 45.0,
+      "line_total": 180.0
+    },
+    {
+      "description": "Desplazamiento",
+      "quantity": 1.0,
+      "unit_price": 25.0,
+      "line_total": 25.0
+    }
+  ],
+  "subtotal": 1319.4,
+  "tax_rate_percent": 21.0,
+  "tax_amount": 277.07,
+  "total": 1596.47,
+  "payment": {
+    "bank_name": "Banco Ficticio Mediterráneo",
+    "iban": "ES000000000000000000000000",
+    "bic_swift": "DEMOESMMXXX",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": "Due date computed from payment terms '30 días fecha factura' (30 days from invoice date). Payment by bank transfer."
+}

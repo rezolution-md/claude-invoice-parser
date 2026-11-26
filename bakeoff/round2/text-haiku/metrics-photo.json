@@ -1,0 +1,56 @@
+[
+  {
+    "file": "h03-hu-afa.pdf",
+    "source": "ocr",
+    "text_chars": 937,
+    "input_tokens": 3303,
+    "output_tokens": 2671,
+    "cost_usd": 0.001666,
+    "extract_seconds": 3.21,
+    "api_seconds": 12.15,
+    "total_seconds": 15.36,
+    "issues": [
+      "issue date missing"
+    ]
+  },
+  {
+    "file": "h06-uk-ddmm.pdf",
+    "source": "ocr",
+    "text_chars": 738,
+    "input_tokens": 3116,
+    "output_tokens": 2050,
+    "cost_usd": 0.001337,
+    "extract_seconds": 2.65,
+    "api_seconds": 9.16,
+    "total_seconds": 11.81,
+    "issues": []
+  },
+  {
+    "file": "h09-two-page.pdf",
+    "source": "ocr",
+    "text_chars": 1932,
+    "input_tokens": 3879,
+    "output_tokens": 4333,
+    "cost_usd": 0.002554,
+    "extract_seconds": 5.54,
+    "api_seconds": 15.44,
+    "total_seconds": 20.98,
+    "issues": [
+      "no bank account or IBAN found"
+    ]
+  },
+  {
+    "file": "h11-vat-error.pdf",
+    "source": "ocr",
+    "text_chars": 652,
+    "input_tokens": 3123,
+    "output_tokens": 1666,
+    "cost_usd": 0.001145,
+    "extract_seconds": 2.04,
+    "api_seconds": 7.37,
+    "total_seconds": 9.42,
+    "issues": [
+      "21.0% of 1840.0 is 386.4, but tax amount is 386.9"
+    ]
+  }
+]

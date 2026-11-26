@@ -1,0 +1,53 @@
+{
+  "vendor_name": "Polderwind Inst: niek B.V.",
+  "vendor_tax_id": null,
+  "customer_name": "Huisartsenpraktijk De lav. de praktijkmanag",
+  "invoice_number": "PW-2026-0219",
+  "issue_date": "2026-11-09",
+  "due_date": "2026-11-23",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Onderhoud warmite;",
+      "quantity": 1.0,
+      "unit_price": 245.0,
+      "line_total": 245.0
+    },
+    {
+      "description": "Vervangen expantie i",
+      "quantity": 1.0,
+      "unit_price": 189.0,
+      "line_total": 189.0
+    },
+    {
+      "description": "Arbeid (uur)",
+      "quantity": 6.0,
+      "unit_price": 68.5,
+      "line_total": 411.0
+    },
+    {
+      "description": "Voornjkosten i",
+      "quantity": 1.0,
+      "unit_price": 35.0,
+      "line_total": 35.0
+    },
+    {
+      "description": "Thermostat. slim",
+      "quantity": 2.0,
+      "unit_price": 480.0,
+      "line_total": 960.0
+    }
+  ],
+  "subtotal": 1840.0,
+  "tax_rate_percent": 21.0,
+  "tax_amount": 386.9,
+  "total": 2226.9,
+  "payment": {
+    "bank_name": "Demobank Noord",
+    "iban": "NL00DEMO0000000001",
+    "bic_swift": "DEMONL2A",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": "OCR text is garbled in places; vendor name, customer name, and some line descriptions are uncertain. Printed VAT amount 386.90 does not match 21% of 1840.00 (386.40); copied as printed."
+}

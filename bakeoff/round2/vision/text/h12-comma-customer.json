@@ -1,0 +1,47 @@
+{
+  "vendor_name": "Larchmont Survey Instruments Inc.",
+  "vendor_tax_id": "000000001RT0001",
+  "customer_name": "Halloran, Pike & Co",
+  "invoice_number": "LSI-55102",
+  "issue_date": "2026-11-05",
+  "due_date": "2026-11-20",
+  "currency": "CAD",
+  "line_items": [
+    {
+      "description": "Total station rental, weekly",
+      "quantity": 2.0,
+      "unit_price": 675.0,
+      "line_total": 1350.0
+    },
+    {
+      "description": "GNSS rover rental, weekly",
+      "quantity": 2.0,
+      "unit_price": 540.0,
+      "line_total": 1080.0
+    },
+    {
+      "description": "Tripod & prism kit",
+      "quantity": 2.0,
+      "unit_price": 60.0,
+      "line_total": 120.0
+    },
+    {
+      "description": "Delivery & pickup, Calgary",
+      "quantity": 1.0,
+      "unit_price": 85.0,
+      "line_total": 85.0
+    }
+  ],
+  "subtotal": 2635.0,
+  "tax_rate_percent": 5.0,
+  "tax_amount": 131.75,
+  "total": 2766.75,
+  "payment": {
+    "bank_name": "Demo Bank of Canada",
+    "iban": null,
+    "bic_swift": null,
+    "account_number": "0001234567",
+    "routing_or_sort_code": "000000011"
+  },
+  "notes": "Terms Net 15; due date computed from invoice date. Payment by EFT. Tax is GST 5%."
+}

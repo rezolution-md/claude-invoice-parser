@@ -1,0 +1,22 @@
+{
+  "vendor_name": "TAX INVOICE",
+  "vendor_tax_id": "00000000001",
+  "customer_name": "7 Dune Road",
+  "invoice_number": "HX-00862",
+  "issue_date": "2026-11-06",
+  "due_date": "2026-11-20",
+  "currency": "USD",
+  "line_items": [],
+  "subtotal": 2491.0,
+  "tax_rate_percent": 10.0,
+  "tax_amount": 249.1,
+  "total": 2740.1,
+  "payment": {
+    "bank_name": null,
+    "iban": null,
+    "bic_swift": null,
+    "account_number": "00012345",
+    "routing_or_sort_code": null
+  },
+  "notes": null
+}
