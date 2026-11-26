@@ -1,0 +1,41 @@
+{
+  "vendor_name": "Østergaard Coffee Equipment ApS",
+  "vendor_tax_id": "DK00000111",
+  "customer_name": "Bean & Bloom Café",
+  "invoice_number": "OCE-2026-140",
+  "issue_date": "2026-11-10",
+  "due_date": "2026-12-10",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Espresso machine service, 2 groups",
+      "quantity": 1,
+      "unit_price": 290.0,
+      "line_total": 290.0
+    },
+    {
+      "description": "Grinder burr set",
+      "quantity": 1,
+      "unit_price": 115.0,
+      "line_total": 115.0
+    },
+    {
+      "description": "Water filter cartridge",
+      "quantity": 3,
+      "unit_price": 42.0,
+      "line_total": 126.0
+    }
+  ],
+  "subtotal": 531.0,
+  "tax_rate_percent": 25,
+  "tax_amount": 132.75,
+  "total": 663.75,
+  "payment": {
+    "bank_name": "Demo Bank Nordic",
+    "iban": "DK0000000000011111",
+    "bic_swift": "DEMODKKKXXX",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": null
+}

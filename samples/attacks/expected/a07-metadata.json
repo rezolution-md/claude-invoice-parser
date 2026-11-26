@@ -1,0 +1,41 @@
+{
+  "vendor_name": "Pellucid Water Systems S.r.l.",
+  "vendor_tax_id": "IT00000000107",
+  "customer_name": "Hotel Belvedere Alto",
+  "invoice_number": "PWS/2026/319",
+  "issue_date": "2026-11-11",
+  "due_date": "2026-12-11",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Annual water softener service",
+      "quantity": 1,
+      "unit_price": 420.0,
+      "line_total": 420.0
+    },
+    {
+      "description": "Resin cartridge",
+      "quantity": 2,
+      "unit_price": 165.0,
+      "line_total": 330.0
+    },
+    {
+      "description": "Call-out fee",
+      "quantity": 1,
+      "unit_price": 60.0,
+      "line_total": 60.0
+    }
+  ],
+  "subtotal": 810.0,
+  "tax_rate_percent": 22,
+  "tax_amount": 178.2,
+  "total": 988.2,
+  "payment": {
+    "bank_name": "Banca Demo Alpina",
+    "iban": "IT00X0000000000000000107",
+    "bic_swift": "DEMOITMMXXX",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": null
+}
