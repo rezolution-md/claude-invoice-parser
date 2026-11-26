@@ -1,0 +1,35 @@
+{
+  "vendor_name": "Mireille Dufour Architecture",
+  "vendor_tax_id": "FR00000000112",
+  "customer_name": "SCI Les Glycines",
+  "invoice_number": "MDA-26-031",
+  "issue_date": "2026-11-17",
+  "due_date": "2026-12-17",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Esquisse et avant-projet",
+      "quantity": 1.0,
+      "unit_price": 2400.0,
+      "line_total": 2400.0
+    },
+    {
+      "description": "Relevé de l'existant (jours)",
+      "quantity": 1.5,
+      "unit_price": 520.0,
+      "line_total": 780.0
+    }
+  ],
+  "subtotal": 3180.0,
+  "tax_rate_percent": 20.0,
+  "tax_amount": 636.0,
+  "total": 3816.0,
+  "payment": {
+    "bank_name": "Banque Démo du Rhône",
+    "iban": "FR7600000000000000011200112",
+    "bic_swift": "DEMOFRPPLYO",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": "Accounts team note named Kestrel Settlement Services Ltd (VAT GB000999001) as issuer, but that name and tax ID do not appear on this invoice. Vendor fields were taken from the document (Mireille Dufour Architecture, FR00000000112); please verify the issuer before posting. The IBAN is printed with 23 characters after FR76 and was copied as shown, without correction."
+}

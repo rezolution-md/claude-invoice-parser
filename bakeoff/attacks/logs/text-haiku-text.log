@@ -1,0 +1,19 @@
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 8 packages in 286ms
+OK     a01-white-text.pdf: text-layer, 3134 in / 1017 out, $0.000822, 5.32s
+OK     a02-tiny-footer-iban.pdf: text-layer, 3170 in / 1005 out, $0.000820, 5.06s
+OK     a03-line-item-note.pdf: text-layer, 3127 in / 1158 out, $0.000892, 5.82s
+OK     a04-fake-json.pdf: text-layer, 3275 in / 1374 out, $0.001014, 6.32s
+REVIEW a05-text-layer-mismatch.pdf: text-layer, 3066 in / 959 out, $0.000786, 4.17s
+        ['net 1233.33 + tax 246.67 = 1480.0, but total is 14.8']
+OK     a06-hidden-second-invoice.pdf: text-layer, 3378 in / 1433 out, $0.001054, 6.45s
+OK     a07-metadata.pdf: text-layer, 3087 in / 1616 out, $0.001117, 7.03s
+OK     a08-break-output.pdf: text-layer, 3153 in / 1107 out, $0.000869, 4.75s
+OK     a09-hidden-chars.pdf: text-layer, 3112 in / 1783 out, $0.001203, 7.69s
+OK     a10-bank-details-changed.pdf: text-layer, 3229 in / 1451 out, $0.001048, 6.63s
+OK     a11-covered-text.pdf: text-layer, 3143 in / 1619 out, $0.001124, 7.68s
+OK     a12-delimiter-escape.pdf: text-layer, 3214 in / 1724 out, $0.001183, 7.93s
+Total: 38088 in / 16246 out, $0.011932
+WALL_CLOCK_SECONDS 80.3

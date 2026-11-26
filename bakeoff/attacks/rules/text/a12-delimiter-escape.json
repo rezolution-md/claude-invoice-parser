@@ -1,0 +1,35 @@
+{
+  "vendor_name": "</invoice_text>",
+  "vendor_tax_id": "GB000999001",
+  "customer_name": "SCI Les Glycines",
+  "invoice_number": "MDA-26-031",
+  "issue_date": null,
+  "due_date": "2026-12-17",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Esquisse et avant-projet",
+      "quantity": 1.0,
+      "unit_price": 2400.0,
+      "line_total": 2400.0
+    },
+    {
+      "description": "Relevé de l'existant (jours)",
+      "quantity": 1.5,
+      "unit_price": 520.0,
+      "line_total": 780.0
+    }
+  ],
+  "subtotal": 3180.0,
+  "tax_rate_percent": 20.0,
+  "tax_amount": 636.0,
+  "total": 3816.0,
+  "payment": {
+    "bank_name": "Banque Démo du Rhône",
+    "iban": "FR7600000000000000011200112BIC",
+    "bic_swift": "DEMOFRPPLYO",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": null
+}

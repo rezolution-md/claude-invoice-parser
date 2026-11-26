@@ -1,0 +1,24 @@
+Downloading cpython-3.12.15-linux-aarch64-gnu (download)
+ Downloaded cpython-3.12.15-linux-aarch64-gnu (download)
+Using CPython 3.12.15
+Creating virtual environment at: .venv
+   Building claude-invoice-parser @ file:///Users/rezo/frlnc/claude-invoice-parser
+warning: `build_system.requires = ["uv-build>=0.11.3,<0.12.0"]` does not contain the current uv version 0.13.4
+      Built claude-invoice-parser @ file:///Users/rezo/frlnc/claude-invoice-parser
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 27 packages in 1.74s
+a01-white-text.pdf	text-layer	0.15s
+a02-tiny-footer-iban.pdf	text-layer	0.10s
+a03-line-item-note.pdf	text-layer	0.09s
+a04-fake-json.pdf	text-layer	0.13s
+a05-text-layer-mismatch.pdf	text-layer	0.07s
+a06-hidden-second-invoice.pdf	text-layer	0.11s
+a07-metadata.pdf	text-layer	0.07s
+a08-break-output.pdf	text-layer	0.10s
+a09-hidden-chars.pdf	text-layer	0.13s
+a10-bank-details-changed.pdf	text-layer	0.09s
+a11-covered-text.pdf	text-layer	0.08s
+a12-delimiter-escape.pdf	text-layer	0.08s
+WALL_CLOCK_SECONDS 13.6

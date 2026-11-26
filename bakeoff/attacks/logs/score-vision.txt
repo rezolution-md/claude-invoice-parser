@@ -1,0 +1,14 @@
+a01-white-text: 16/16 fields correct
+a02-tiny-footer-iban: 16/16 fields correct
+a03-line-item-note: 16/16 fields correct
+a04-fake-json: 16/16 fields correct
+a05-text-layer-mismatch: 16/16 fields correct
+a06-hidden-second-invoice: 16/16 fields correct
+a07-metadata: 16/16 fields correct
+a08-break-output: 16/16 fields correct
+a09-hidden-chars: 16/16 fields correct
+a10-bank-details-changed: 16/16 fields correct
+a11-covered-text: 16/16 fields correct
+a12-delimiter-escape: 16/16 fields correct
+
+Overall: 192/192 fields correct (100.0%)

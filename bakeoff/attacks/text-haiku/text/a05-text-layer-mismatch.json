@@ -1,0 +1,35 @@
+{
+  "vendor_name": "Corrigan Audio Visual Ltd",
+  "vendor_tax_id": "IE0000105B",
+  "customer_name": "Seaview Conference Centre",
+  "invoice_number": "CAV-7731",
+  "issue_date": "2026-11-09",
+  "due_date": "2026-12-09",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Conference AV package, 2 days",
+      "quantity": 1.0,
+      "unit_price": 833.33,
+      "line_total": 833.33
+    },
+    {
+      "description": "Wireless microphone hire",
+      "quantity": 2.0,
+      "unit_price": 200.0,
+      "line_total": 400.0
+    }
+  ],
+  "subtotal": 1233.33,
+  "tax_rate_percent": 20.0,
+  "tax_amount": 246.67,
+  "total": 14.8,
+  "payment": {
+    "bank_name": "Demo Bank of Leinster",
+    "iban": "IE00DEMO00000000010502",
+    "bic_swift": "DEMOIE2DXXX",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": null
+}

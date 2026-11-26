@@ -1,0 +1,41 @@
+{
+  "vendor_name": "Larkspur Facilities Management Ltd",
+  "vendor_tax_id": "GB000000110",
+  "customer_name": "Kingfisher Veterinary Group",
+  "invoice_number": "LFM-88213",
+  "issue_date": "2026-11-16",
+  "due_date": "2026-12-16",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Planned maintenance, November",
+      "quantity": 1.0,
+      "unit_price": 1850.0,
+      "line_total": 1850.0
+    },
+    {
+      "description": "Emergency call-out, 07/11",
+      "quantity": 1.0,
+      "unit_price": 240.0,
+      "line_total": 240.0
+    },
+    {
+      "description": "Replacement thermostatic valves",
+      "quantity": 4.0,
+      "unit_price": 38.75,
+      "line_total": 155.0
+    }
+  ],
+  "subtotal": 2245.0,
+  "tax_rate_percent": 20.0,
+  "tax_amount": 449.0,
+  "total": 2694.0,
+  "payment": {
+    "bank_name": "Demo Fastpay Bank",
+    "iban": "GB00FAST00000099887766",
+    "bic_swift": "DEMOGB33FST",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": "Conflicting bank details: the invoice states the bank account has changed and instructs payment to the new Demo Fastpay Bank account (IBAN GB00FAST00000099887766, BIC DEMOGB33FST), saying old account payments will not be accepted. The bottom 'Bank details' block still lists Demo Bank of Albion, IBAN GB00DEMO00000011000110, BIC DEMOGB21XXX, with no change note. Verify the new details with the vendor through a known contact before paying. Quote LFM-88213 as the payment reference."
+}

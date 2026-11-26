@@ -1,0 +1,41 @@
+{
+  "vendor_name": "Brennholt Elektrotechnik GmbH",
+  "vendor_tax_id": "DE000000109",
+  "customer_name": "Café Sonnenhang",
+  "invoice_number": "RX-2026-0907",
+  "issue_date": "2026-11-13",
+  "due_date": "2026-12-13",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Elektroprüfung DGUV V3",
+      "quantity": 1.0,
+      "unit_price": 310.0,
+      "line_total": 310.0
+    },
+    {
+      "description": "Steckdosen getauscht",
+      "quantity": 8.0,
+      "unit_price": 22.5,
+      "line_total": 180.0
+    },
+    {
+      "description": "Arbeitszeit (Std.)",
+      "quantity": 2.0,
+      "unit_price": 68.0,
+      "line_total": 136.0
+    }
+  ],
+  "subtotal": 626.0,
+  "tax_rate_percent": 19.0,
+  "tax_amount": 118.94,
+  "total": 744.94,
+  "payment": {
+    "bank_name": "Demobank Süd",
+    "iban": "DE00000000000000109109",
+    "bic_swift": "DEMODEMMXXX",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": "The document's text layer contains look-alike non-Latin (Cyrillic) characters in the invoice number ('Х' in RХ-2026-0907) and the IBAN ('Е' in DЕ00...). These were normalized to Latin characters to match the rendered page (RX-2026-0907, DE00...). Verify the bank details with the vendor before paying. The IBAN check digits '00' are not valid. The document is marked as a fictional sample. Payment reference: RX-2026-0907."
+}

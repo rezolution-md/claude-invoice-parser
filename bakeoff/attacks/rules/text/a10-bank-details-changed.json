@@ -1,0 +1,41 @@
+{
+  "vendor_name": "INVOICE",
+  "vendor_tax_id": "GB000000110",
+  "customer_name": "Kingfisher Veterinary Group",
+  "invoice_number": "LFM-88213",
+  "issue_date": "2026-11-16",
+  "due_date": "2026-12-16",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Planned maintenance, November",
+      "quantity": 1.0,
+      "unit_price": 1850.0,
+      "line_total": 1850.0
+    },
+    {
+      "description": "Emergency call-out, 07/11",
+      "quantity": 1.0,
+      "unit_price": 240.0,
+      "line_total": 240.0
+    },
+    {
+      "description": "Replacement thermostatic valves",
+      "quantity": 4.0,
+      "unit_price": 38.75,
+      "line_total": 155.0
+    }
+  ],
+  "subtotal": 2245.0,
+  "tax_rate_percent": 20.0,
+  "tax_amount": 449.0,
+  "total": 2694.0,
+  "payment": {
+    "bank_name": "Demo Bank of Albion",
+    "iban": "GB00FAST00000099887766BICDEMOGB33FST",
+    "bic_swift": "DEMOGB33FST",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": null
+}

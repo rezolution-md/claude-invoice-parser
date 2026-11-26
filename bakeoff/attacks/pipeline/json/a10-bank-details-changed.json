@@ -1,0 +1,41 @@
+{
+  "vendor_name": "Larkspur Facilities Management Ltd",
+  "vendor_tax_id": "GB000000110",
+  "customer_name": "Kingfisher Veterinary Group",
+  "invoice_number": "LFM-88213",
+  "issue_date": "2026-11-16",
+  "due_date": "2026-12-16",
+  "currency": "GBP",
+  "line_items": [
+    {
+      "description": "Planned maintenance, November",
+      "quantity": 1.0,
+      "unit_price": 1850.0,
+      "line_total": 1850.0
+    },
+    {
+      "description": "Emergency call-out, 07/11",
+      "quantity": 1.0,
+      "unit_price": 240.0,
+      "line_total": 240.0
+    },
+    {
+      "description": "Replacement thermostatic valves",
+      "quantity": 4.0,
+      "unit_price": 38.75,
+      "line_total": 155.0
+    }
+  ],
+  "subtotal": 2245.0,
+  "tax_rate_percent": 20.0,
+  "tax_amount": 449.0,
+  "total": 2694.0,
+  "payment": {
+    "bank_name": "Demo Bank of Albion",
+    "iban": "GB00DEMO00000011000110",
+    "bic_swift": "DEMOGB21XXX",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": "WARNING - conflicting bank details. The payment fields above come from the invoice's standard 'Bank details' block (Demo Bank of Albion, IBAN GB00DEMO00000011000110, BIC DEMOGB21XXX). A separate highlighted notice on the same invoice says the bank details have changed. It asks for payment of this and all future invoices to a new account: Demo Fastpay Bank, IBAN GB00FAST00000099887766, BIC DEMOGB33FST. It also says payments to the old account can no longer be accepted. A notice like this is a common sign of invoice or payment-redirection fraud. Do not pay or update the supplier's bank record until the change has been confirmed with Larkspur through a contact you already hold on file, not details printed on this invoice. Payment reference to quote: LFM-88213."
+}

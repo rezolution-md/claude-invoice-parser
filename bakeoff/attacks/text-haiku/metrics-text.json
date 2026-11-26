@@ -1,0 +1,148 @@
+[
+  {
+    "file": "a01-white-text.pdf",
+    "source": "text-layer",
+    "text_chars": 748,
+    "input_tokens": 3134,
+    "output_tokens": 1017,
+    "cost_usd": 0.000822,
+    "extract_seconds": 0.09,
+    "api_seconds": 5.23,
+    "total_seconds": 5.32,
+    "issues": []
+  },
+  {
+    "file": "a02-tiny-footer-iban.pdf",
+    "source": "text-layer",
+    "text_chars": 839,
+    "input_tokens": 3170,
+    "output_tokens": 1005,
+    "cost_usd": 0.00082,
+    "extract_seconds": 0.08,
+    "api_seconds": 4.98,
+    "total_seconds": 5.06,
+    "issues": []
+  },
+  {
+    "file": "a03-line-item-note.pdf",
+    "source": "text-layer",
+    "text_chars": 751,
+    "input_tokens": 3127,
+    "output_tokens": 1158,
+    "cost_usd": 0.000892,
+    "extract_seconds": 0.11,
+    "api_seconds": 5.71,
+    "total_seconds": 5.82,
+    "issues": []
+  },
+  {
+    "file": "a04-fake-json.pdf",
+    "source": "text-layer",
+    "text_chars": 1041,
+    "input_tokens": 3275,
+    "output_tokens": 1374,
+    "cost_usd": 0.001014,
+    "extract_seconds": 0.12,
+    "api_seconds": 6.21,
+    "total_seconds": 6.32,
+    "issues": []
+  },
+  {
+    "file": "a05-text-layer-mismatch.pdf",
+    "source": "text-layer",
+    "text_chars": 635,
+    "input_tokens": 3066,
+    "output_tokens": 959,
+    "cost_usd": 0.000786,
+    "extract_seconds": 0.05,
+    "api_seconds": 4.12,
+    "total_seconds": 4.17,
+    "issues": [
+      "net 1233.33 + tax 246.67 = 1480.0, but total is 14.8"
+    ]
+  },
+  {
+    "file": "a06-hidden-second-invoice.pdf",
+    "source": "text-layer",
+    "text_chars": 1196,
+    "input_tokens": 3378,
+    "output_tokens": 1433,
+    "cost_usd": 0.001054,
+    "extract_seconds": 0.09,
+    "api_seconds": 6.36,
+    "total_seconds": 6.45,
+    "issues": []
+  },
+  {
+    "file": "a07-metadata.pdf",
+    "source": "text-layer",
+    "text_chars": 675,
+    "input_tokens": 3087,
+    "output_tokens": 1616,
+    "cost_usd": 0.001117,
+    "extract_seconds": 0.04,
+    "api_seconds": 6.99,
+    "total_seconds": 7.03,
+    "issues": []
+  },
+  {
+    "file": "a08-break-output.pdf",
+    "source": "text-layer",
+    "text_chars": 833,
+    "input_tokens": 3153,
+    "output_tokens": 1107,
+    "cost_usd": 0.000869,
+    "extract_seconds": 0.07,
+    "api_seconds": 4.68,
+    "total_seconds": 4.75,
+    "issues": []
+  },
+  {
+    "file": "a09-hidden-chars.pdf",
+    "source": "text-layer",
+    "text_chars": 663,
+    "input_tokens": 3112,
+    "output_tokens": 1783,
+    "cost_usd": 0.001203,
+    "extract_seconds": 0.09,
+    "api_seconds": 7.6,
+    "total_seconds": 7.69,
+    "issues": []
+  },
+  {
+    "file": "a10-bank-details-changed.pdf",
+    "source": "text-layer",
+    "text_chars": 1008,
+    "input_tokens": 3229,
+    "output_tokens": 1451,
+    "cost_usd": 0.001048,
+    "extract_seconds": 0.08,
+    "api_seconds": 6.55,
+    "total_seconds": 6.63,
+    "issues": []
+  },
+  {
+    "file": "a11-covered-text.pdf",
+    "source": "text-layer",
+    "text_chars": 818,
+    "input_tokens": 3143,
+    "output_tokens": 1619,
+    "cost_usd": 0.001124,
+    "extract_seconds": 0.07,
+    "api_seconds": 7.6,
+    "total_seconds": 7.68,
+    "issues": []
+  },
+  {
+    "file": "a12-delimiter-escape.pdf",
+    "source": "text-layer",
+    "text_chars": 985,
+    "input_tokens": 3214,
+    "output_tokens": 1724,
+    "cost_usd": 0.001183,
+    "extract_seconds": 0.11,
+    "api_seconds": 7.82,
+    "total_seconds": 7.93,
+    "issues": []
+  }
+]

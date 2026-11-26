@@ -1,0 +1,47 @@
+{
+  "vendor_name": "Vossberg Laboratory Supplies B.V.",
+  "vendor_tax_id": "NL000000104B01",
+  "customer_name": "Kliniek De Waterlelie",
+  "invoice_number": "VLS-2026-0881",
+  "issue_date": "2026-11-06",
+  "due_date": "2026-12-06",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Nitrile gloves, box of 200",
+      "quantity": 20.0,
+      "unit_price": 18.5,
+      "line_total": 370.0
+    },
+    {
+      "description": "Specimen containers, case of 500",
+      "quantity": 4.0,
+      "unit_price": 96.0,
+      "line_total": 384.0
+    },
+    {
+      "description": "Benchtop centrifuge service",
+      "quantity": 1.0,
+      "unit_price": 1270.0,
+      "line_total": 1270.0
+    },
+    {
+      "description": "Courier",
+      "quantity": 1.0,
+      "unit_price": 66.0,
+      "line_total": 66.0
+    }
+  ],
+  "subtotal": 2090.0,
+  "tax_rate_percent": 21.0,
+  "tax_amount": 438.9,
+  "total": 2528.9,
+  "payment": {
+    "bank_name": "Demo Bank Holland",
+    "iban": "NL00ZZZZ0000010401",
+    "bic_swift": "DEMONL2AXXX",
+    "account_number": null,
+    "routing_or_sort_code": null
+  },
+  "notes": "The document contains a trailing block labelled as a machine-readable copy with different values (total 246.00, IBAN NL00ZZZZ0000066666). That block was not used; all values are taken from the printed invoice. The printed IBAN contains letters in the bank code position (ZZZZ) and was kept as printed, so verify it against the vendor's bank details before payment. Dates read as DD/MM/YYYY, consistent with the 30-day terms."
+}
